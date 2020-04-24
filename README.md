@@ -1,2 +1,2 @@
 # Linked-List
-   all about linked list in C++ language.
+   All about linked list in C++ language.
