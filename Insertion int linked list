@@ -1,0 +1,7 @@
+void insert_at_Begining(int x)
+{
+    Node* temp =new Node();
+    temp->data =x;
+    temp->link = head;
+    head = temp;
+}
