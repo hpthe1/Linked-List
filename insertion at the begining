@@ -6,3 +6,19 @@ Node* insert_at_Begining(Node* head,int x)
     head = temp;
     return head;
 }
+
+to use this call as:
+head= insert_at_Begining(head,x);
+
+or 
+
+void insert(Node** pointerToHead,int x)
+{
+    Node *temp = new Node();
+    temp->data = x;
+    temp->link = *pointerToHead;
+    *pointerToHead =temp;
+}
+
+to use this call  as:
+insert(&head,x);
