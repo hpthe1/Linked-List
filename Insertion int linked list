@@ -1,7 +1,8 @@
-void insert_at_Begining(int x)
+Node* insert_at_Begining(Node* head,int x)
 {
     Node* temp =new Node();
     temp->data =x;
     temp->link = head;
     head = temp;
+    return head;
 }
